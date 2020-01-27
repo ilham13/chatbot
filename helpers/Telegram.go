@@ -41,6 +41,7 @@ func (telegram *Telegram) ListenMessage() {
 			tgbotapi.NewKeyboardButton("Makan siang"),
 		),
 	)
+
 	var makanSiangKeyboard = tgbotapi.NewInlineKeyboardMarkup(
 		tgbotapi.NewInlineKeyboardRow(
 			tgbotapi.NewInlineKeyboardButtonData("Nasi Goreng", "nasi-goreng"),

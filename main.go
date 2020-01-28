@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/ilham13/bot/helpers"
+	"github.com/ilham13/chatbot/helpers"
 )
 
 func main() {

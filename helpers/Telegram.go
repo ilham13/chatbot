@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api"
-	"github.com/ilham13/bot/services"
+	"github.com/ilham13/chatbot/services"
 )
 
 type Telegram struct {
